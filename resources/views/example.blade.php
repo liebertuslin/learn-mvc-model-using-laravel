@@ -4,13 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sample Document</title>
+  <title>Sample Page</title>
 </head>
 <body>
-  @if ($name == 'Libertus')
-    <p>Hi {{ $name }}</p>
-  @else
-    <p>Hello {{ $name }}</p>
-  @endif
+  <p>Hi {{ $name }}</p>
 </body>
 </html>

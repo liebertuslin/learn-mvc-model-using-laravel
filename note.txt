@@ -10,3 +10,12 @@
 
 3) Views (struktur folder yang gunanya untuk menempatkan file tampilan web)
     - Blade (templating engeen dari laravel)
+
+4) Controller (tampat keseluruhan logika dalam operasi crud dilaravel)
+    - index (read)
+    - create
+    - update, & 
+    - delete/destroy
+
+    cara membuat controller 
+    => php artisan make:controller StudentController
