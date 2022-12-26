@@ -1,0 +1,12 @@
+1) Model (cara membuat model)
+    => php artisan make:model Student
+
+2) Routing (cara membuat routing)
+    => Route::get('/greeting', function() {
+        return ('Hello Welcome');
+    })
+
+    => Http routing terbagi menjadi 5 (get (mengambil data), post(mensubmit data), puth(update keseluruhan data)/patch(update sebagian data), delete(menghapus data))
+
+3) Views (struktur folder yang gunanya untuk menempatkan file tampilan web)
+    - Blade (templating engeen dari laravel)
