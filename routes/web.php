@@ -16,6 +16,6 @@ use App\Http\Controllers\StudentController;
 
 Route::get('/', function () {
     return view('welcome');
-})->name('welcome');
+});
 
-Route::get('/example/{id}', [StudentController::class, 'show'])->name('example');
+Route::get('/greeting',[StudentController::class, 'show']);
