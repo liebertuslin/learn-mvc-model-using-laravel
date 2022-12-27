@@ -1,1 +1,0 @@
-<h1>Teacher {{ $name }}</h1>

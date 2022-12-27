@@ -19,4 +19,3 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/greeting/{id}', [StudentController::class, 'show']);
-Route::get('/greeting/{id}', [TeacherController::class, 'show']);
