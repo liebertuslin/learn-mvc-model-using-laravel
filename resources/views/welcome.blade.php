@@ -13,7 +13,11 @@
     </head>
     <body class="antialiased">
         <nav class="navbar-nav">
-            logo
+           <ul class="nav-item">
+            <li class="nav-link" style="list-style-type:none;">
+                <a href="http://google.com" style="text-decoration:none;">E-Mutan</a>
+            </li>
+           </ul>
         </nav>
     </body>
 </html>
